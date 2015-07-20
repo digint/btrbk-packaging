@@ -5,6 +5,9 @@ Maintainer: Axel Burri <axel@tty0.ch>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 9)
 Homepage: http://www.digint.ch/btrbk/
+Vcs-Git: git://github.com/digint/btrbk-packaging -b debian
+Vcs-Browser: https://github.com/digint/btrbk-packaging
+
 
 Package: btrbk
 Architecture: all
