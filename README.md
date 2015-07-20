@@ -34,5 +34,5 @@ echo -e '[DEFAULT]\nexport-dir = /tmp/debian-export' > ~/.gbp.conf
 
 ```
 gbp pull
-gbp buildpackage
+gbp buildpackage --git-tag
 ```
