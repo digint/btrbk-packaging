@@ -4,6 +4,18 @@
 #DH_VERBOSE = 1
 
 # main packaging script based on dh7 syntax
+
 %:
 	dh $@
 
+
+# fix lintian issues:
+# - systemd-service-file-outside-lib
+# - package-contains-timestamped-gzip
+# note: dh automagically gzips man and README files correctly!
+override_dh_auto_configure:
+	dh_auto_configure
+	sed -i \
+	  -e 's/^SYSTEMDDIR = .*/SYSTEMDDIR = \/lib\/systemd\/system/' \
+	  -e '/gzip -9 /d' \
+	  Makefile
