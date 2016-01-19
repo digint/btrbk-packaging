@@ -1,3 +1,20 @@
+btrbk (0.22.0-1) unstable; urgency=high
+
+  * New upstream release.
+  * Bugfix: fix monthly schedule if older than 10 weeks.
+  * Bugfix: fix sprintf used by config option "timestamp_format long"
+    when using perl-5.22.0.
+  * Bugfix: fix "--progress" option.
+  * Added "clean" command.
+  * Added "-n, --dry-run" option.
+  * Added configuration options "raw_target_compress_level",
+    "raw_target_compress_threads".
+  * Added "stats" command.
+  * Print "$hostname:$path" instead of "{$hostname}$path" in summary
+    and logs.
+
+ -- Axel Burri <axel@tty0.ch>  Tue, 19 Jan 2016 20:54:31 +0100
+
 btrbk (0.21.0-1) unstable; urgency=medium
 
   * Added transaction log (configuration option "transaction_log").
