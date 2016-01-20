@@ -1,3 +1,10 @@
+btrbk (0.22.1-1) unstable; urgency=high
+
+  * New upstream release.
+  * Support for btrfs-progs v4.4.
+
+ -- Axel Burri <axel@tty0.ch>  Wed, 20 Jan 2016 18:51:07 +0100
+
 btrbk (0.22.0-1) unstable; urgency=high
 
   * New upstream release.
