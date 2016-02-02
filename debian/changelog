@@ -1,3 +1,11 @@
+btrbk (0.22.2-1) unstable; urgency=high
+
+  * New upstream release.
+  * Bugfix: fix checks on "btrfs sub show" output, which resulted in
+    breakage on btrfs-progs < 4.1.
+
+ -- Axel Burri <axel@tty0.ch>  Tue, 02 Feb 2016 11:28:48 +0100
+
 btrbk (0.22.1-1) unstable; urgency=high
 
   * New upstream release.
