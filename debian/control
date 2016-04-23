@@ -4,17 +4,17 @@ Priority: optional
 Maintainer: Axel Burri <axel@tty0.ch>
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 9)
-Homepage: http://www.digint.ch/btrbk/
+Homepage: http://digint.ch/btrbk/
 Vcs-Git: git://github.com/digint/btrbk-packaging -b debian
 Vcs-Browser: https://github.com/digint/btrbk-packaging
 
 
 Package: btrbk
 Architecture: all
-Depends: perl, libdate-calc-perl, btrfs-tools (>= 3.14), ${misc:Depends}
+Depends: perl, btrfs-tools (>= 3.18.2), ${misc:Depends}
 Suggests: openssh-client
-Description: backup tool for btrfs volumes
- Backup tool for btrfs volumes, using a configuration file, allows
- creation of backups from multiple sources to multiple destinations at
- once, with ssh and configurable retention support
- (daily/weekly/monthly).
+Description: tool for creating snapshots and remote backups of btrfs
+ subvolumes Backup tool for btrfs subvolumes, using a configuration
+ file, allows creation of backups from multiple sources to multiple
+ destinations, with ssh and flexible retention policy support (hourly,
+ daily, weekly, monthly).

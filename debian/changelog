@@ -1,3 +1,39 @@
+btrbk (0.23.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * INCOMPATIBLE CONFIGURATION:
+    * Please read "doc/upgrade_to_v0.23.0.md" for details on updating
+      the configuration file (/etc/btrbk/btrbk.conf).
+    * Dropped "btrfs_progs_compat" option. Need btrfs-progs >= v3.18.
+    * Removed "resume_missing" configuration option.
+  * Create backups only if needed to satisfy retention policy.
+  * Preserve FIRST backup of hour/day/week/month instead of LAST.
+  * Replaced "{snapshot,target}_preserve_{daily,weekly,monthly}"
+    configuration options with "{snapshot,target}_preserve_min" and
+    "{snapshot,target}_preserve NNh NNd NNw NNm NNy" options.
+  * Added hourly/yearly retention policies.
+  * Allow regular directories for send-receive targets.
+  * Allow wildcards in subvolume section.
+  * Propagate targets defined in "volume" or "root" context to all
+    "subvolume" sections.
+  * Added "archive" command.
+  * Changed output format of "origin" command, add table formats.
+  * Added configuration option "rate_limit".
+  * Added new timestamp_format "long-iso", having a timezone postfix.
+  * Added "--print-schedule" command line option.
+  * Detect interrupted transfers of raw targets.
+  * Always read "readonly" flag (additional call to btrfs-progs).
+  * Warn on receive targets at unexpected location (instead of abort).
+  * On incremental send/receive, use all snapshots sharing same
+    parent_uuid as candidates for "-p <parent>" instead of only older
+    snapshots. As last resort, use subvolumes in snapshot_dir matching
+    btrbk file name scheme as candidates (which allows incremental
+    backups after the parent vanished, e.g. after backup restore).
+  * Use perl built-in Time::Local instead of Date::Calc.
+  * Improvements of internal data structures.
+
+ -- Axel Burri <axel@tty0.ch>  Sat, 23 Apr 2016 15:24:42 +0200
+
 btrbk (0.22.2-1) unstable; urgency=high
 
   * New upstream release.
