@@ -1,0 +1,11 @@
+btrbk (0.23.0-1) unstable; urgency=medium
+
+    As the retention policy semantics changed with btrbk-0.23.0, the
+    configuration files created for earlier versions are not
+    compatible, and will force btrbk into "failsafe mode". Please read
+    "doc/upgrade_to_v0.23.0.md"
+    <http://digint.ch/btrbk/doc/archive/btrbk-0.23.0/upgrade_to_v0.23.0.html>
+    before upgrading to btrbk-0.23.0.
+    We apologize for the inconvenience.
+
+ -- Axel Burri <axel@tty0.ch>  Sun, 24 Apr 2016 13:28:23 +0200
