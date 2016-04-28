@@ -13,8 +13,8 @@ Package: btrbk
 Architecture: all
 Depends: perl, btrfs-tools (>= 3.18.2), ${misc:Depends}
 Suggests: openssh-client
-Description: tool for creating snapshots and remote backups of btrfs
- subvolumes Backup tool for btrfs subvolumes, using a configuration
- file, allows creation of backups from multiple sources to multiple
- destinations, with ssh and flexible retention policy support (hourly,
- daily, weekly, monthly).
+Description: backup tool for btrfs subvolumes
+ Backup tool for btrfs subvolumes, using a configuration file, allows
+ creation of backups from multiple sources to multiple destinations,
+ with ssh and flexible retention policy support (hourly, daily,
+ weekly, monthly).
