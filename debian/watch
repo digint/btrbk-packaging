@@ -1,4 +1,2 @@
 version=3
-opts=filenamemangle=s/.+\/v?(.*)\.tar\.gz/btrbk-$1.tar.gz/ \
-https://github.com/digint/btrbk/tags .*/v?(\d[\d\.]+)\.tar\.gz
-
+http://digint.ch/download/btrbk/releases/btrbk-(\d[\d\.]+)\.tar\.(?:gz|bz2|xz)
