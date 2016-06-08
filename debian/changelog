@@ -1,11 +1,13 @@
 btrbk (0.23.2-1) unstable; urgency=medium
 
   * New upstream release.
-  * Add 'pv' to suggested dependencies (closes: #824701).
-  * Depend on btrfs-progs (renamed from btrfs-tools).
+  * Move openssh-client from suggested to recommended depends.
+  * Add 'pv' to recommended dependencies (closes: #824701).
+  * Depend on btrfs-progs (renamed from btrfs-tools). Leave
+    btrfs-tools as an alternative to ease backporting.
   * Update standards version to 3.9.8 (no changes needed).
 
- -- Axel Burri <axel@tty0.ch>  Tue, 07 Jun 2016 18:20:35 +0200
+ -- Axel Burri <axel@tty0.ch>  Wed, 08 Jun 2016 11:32:41 +0200
 
 btrbk (0.23.1-1) unstable; urgency=medium
 
