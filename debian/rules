@@ -17,5 +17,6 @@ override_dh_auto_configure:
 	dh_auto_configure
 	sed -i \
 	  -e 's/^SYSTEMDDIR = .*/SYSTEMDDIR = \/lib\/systemd\/system/' \
+	  -e 's/$(DESTDIR)$(DOCDIR)\/ChangeLog/$(DESTDIR)$(DOCDIR)\/changelog/' \
 	  -e '/gzip -9 /d' \
 	  Makefile

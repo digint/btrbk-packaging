@@ -1,3 +1,11 @@
+btrbk (0.23.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Rename upstream "ChangeLog" to "changelog".
+  * Fix copyright year.
+
+ -- Axel Burri <axel@tty0.ch>  Thu, 14 Jul 2016 02:30:34 +0200
+
 btrbk (0.23.2-1) unstable; urgency=medium
 
   * New upstream release.
