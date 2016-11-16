@@ -1,3 +1,9 @@
+btrbk (0.24.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Axel Burri <axel@tty0.ch>  Wed, 16 Nov 2016 15:36:10 +0100
+
 btrbk (0.23.3-1) unstable; urgency=low
 
   * New upstream release.
