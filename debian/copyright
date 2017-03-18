@@ -3,7 +3,7 @@ Upstream-Name: btrbk
 Source: http://digint.ch/download/btrbk/releases/
 
 Files: *
-Copyright: 2014-2016 Axel Burri <axel@tty0.ch>
+Copyright: 2014-2017 Axel Burri <axel@tty0.ch>
 License: GPL-3+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
