@@ -2,8 +2,8 @@ Source: btrbk
 Section: utils
 Priority: optional
 Maintainer: Axel Burri <axel@tty0.ch>
-Standards-Version: 3.9.8
-Build-Depends: debhelper (>= 9)
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 9), asciidoc, xmlto
 Homepage: http://digint.ch/btrbk/
 Vcs-Git: git://github.com/digint/btrbk-packaging -b debian
 Vcs-Browser: https://github.com/digint/btrbk-packaging
