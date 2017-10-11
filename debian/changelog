@@ -3,6 +3,7 @@ btrbk (0.26.0-1) unstable; urgency=medium
   * New upstream release.
   * Add asciidoc and xmlto to Build-Depends
   * Use Standards-Version: 4.1.1
+  * Use https:// url for Vcs-Git
 
  -- Axel Burri <axel@tty0.ch>  Thu, 12 Oct 2017 00:05:57 +0200
 
