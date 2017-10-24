@@ -1,2 +1,2 @@
 version=3
-http://digint.ch/download/btrbk/releases/btrbk-(\d[\d\.]+)\.tar\.(?:gz|bz2|xz)
+https://digint.ch/download/btrbk/releases/btrbk-(\d[\d\.]+)\.tar\.(?:gz|bz2|xz)
