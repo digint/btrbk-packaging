@@ -12,7 +12,7 @@ Vcs-Browser: https://github.com/digint/btrbk-packaging
 Package: btrbk
 Architecture: all
 Depends: perl, btrfs-progs (>= 3.18.2) | btrfs-tools (>= 3.18.2), ${misc:Depends}
-Recommends: openssh-client, pv
+Recommends: openssh-client, pv, mbuffer
 Suggests: openssl
 Description: backup tool for btrfs subvolumes
  Backup tool for btrfs subvolumes, using a configuration file, allows
