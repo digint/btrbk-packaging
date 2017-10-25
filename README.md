@@ -6,9 +6,11 @@ packages**.
 
 The official btrbk git repository is available here:
 
-- git://dev.tty0.ch/btrbk.git
-- https://github.com/digint/btrbk.git
+    https://dev.tty0.ch/btrbk.git
 
+Mirror on GitHub:
+
+    https://github.com/digint/btrbk.git
 
 
 Debian
