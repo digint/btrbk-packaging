@@ -18,23 +18,19 @@ Debian
 
 ### Setting up the build environment
 
-```
-# clone the btrbk-packaging repository
-git clone -b debian https://github.com/digint/btrbk-packaging.git
+    # clone the btrbk-packaging repository
+    git clone -b debian https://github.com/digint/btrbk-packaging.git
 
-# setup upstream branch
-cd btrbk-packaging
-git remote add -t master -f btrbk https://github.com/digint/btrbk.git
-git branch --track upstream btrbk/master
+    # setup upstream branch
+    cd btrbk-packaging
+    git remote add -t master -f btrbk https://github.com/digint/btrbk.git
+    git branch --track upstream btrbk/master
 
-# configure the export directory for gbp
-echo -e '[DEFAULT]\nexport-dir = /tmp/debian-export' > ~/.gbp.conf
-```
+    # configure the export directory for gbp
+    echo -e '[DEFAULT]\nexport-dir = /tmp/debian-export' > ~/.gbp.conf
 
 
 ### Build new release
 
-```
-gbp pull
-gbp buildpackage --git-tag
-```
+    gbp pull
+    gbp buildpackage --git-tag
