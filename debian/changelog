@@ -1,3 +1,9 @@
+btrbk (0.26.0-1~bpo9+1) stretch-backports; urgency=medium
+
+  * Rebuild for stretch-backports.
+
+ -- Axel Burri <axel@tty0.ch>  Fri, 03 Nov 2017 12:36:08 +0100
+
 btrbk (0.26.0-1) unstable; urgency=medium
 
   * New upstream release.
