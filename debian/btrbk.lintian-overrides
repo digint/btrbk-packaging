@@ -1,0 +1,2 @@
+# Python script is only used for (optional) KDF encryption of raw targets.
+btrbk: python-script-but-no-python-dep usr/share/btrbk/scripts/kdf_pbkdf2.py
