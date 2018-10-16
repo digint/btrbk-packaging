@@ -1,3 +1,10 @@
+btrbk (0.27.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Build man pages using asciidoctor instead of asciidoc.
+
+ -- Axel Burri <axel@tty0.ch>  Tue, 16 Oct 2018 12:33:36 +0200
+
 btrbk (0.26.1-1) unstable; urgency=low
 
   * New upstream release.
