@@ -1,3 +1,26 @@
+btrbk (0.27.0-1) unstable; urgency=low
+
+    Due to a bugfix in the scheduler [1] [2], previously preserved
+    monthly/yearly backups could get deleted when upgrading to
+    btrbk-0.27.0.
+
+    Before upgrading to btrbk-0.27.0, make sure to stop all cron jobs
+    or systemd timers calling btrbk.
+
+    After upgrading, run "btrbk prune --dry-run --print-schedule" and
+    check if any snapshots/backups would get deleted. If you want to
+    forcibly preserve a snapshot/backup forever, rename it:
+
+        mv mysubvol.YYYYMMDD mysubvol.YYYYMMDD.keep_forever
+
+    Note that btrbk ignores subvolumes with unknown naming scheme, e.g.
+    (".keep_forever" suffix in the example above).
+
+      [1] https://github.com/digint/btrbk/issues/217
+      [2] https://github.com/digint/btrbk/commit/719fb5f
+
+ -- Axel Burri <axel@tty0.ch>  Tue, 16 Oct 2018 12:33:36 +0200
+
 btrbk (0.23.0-1) unstable; urgency=medium
 
     As the retention policy semantics changed with btrbk-0.23.0, the
