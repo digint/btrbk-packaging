@@ -2,6 +2,7 @@ btrbk (0.27.0-2) UNRELEASED; urgency=medium
 
   * Use asciidoc as optional build-depend to asciidoctor for easy backports
     on older systems
+  * Suggest python3 as one of the optional contrib scripts needs it
 
  -- Yaroslav Halchenko <debian@onerussian.com>  Tue, 23 Oct 2018 10:54:03 -0400
 
