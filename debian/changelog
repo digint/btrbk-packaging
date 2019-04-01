@@ -1,8 +1,9 @@
-btrbk (0.27.2-1) unstable; urgency=medium
+btrbk (0.27.2-1) experimental; urgency=medium
 
   * New upstream release.
+  * Depend on btrfs-progs (>= 4.12)
 
- -- Axel Burri <axel@tty0.ch>  Tue, 26 Mar 2019 15:57:08 +0100
+ -- Axel Burri <axel@tty0.ch>  Mon, 01 Apr 2019 20:45:59 +0200
 
 btrbk (0.27.1-1) unstable; urgency=medium
 
