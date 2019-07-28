@@ -1,3 +1,10 @@
+btrbk (0.28.3-1) experimental; urgency=low
+
+  * New upstream release.
+  * Remove depends on btrfs-tools (close: #932121)
+
+ -- Axel Burri <axel@tty0.ch>  Sun, 28 Jul 2019 15:47:35 +0200
+
 btrbk (0.28.2-1) experimental; urgency=medium
 
   * New upstream release.
