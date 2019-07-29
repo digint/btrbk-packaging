@@ -1,2 +1,4 @@
 # Python script is only used for (optional) KDF encryption of raw targets.
 btrbk binary: python-script-but-no-python-dep usr/share/btrbk/scripts/kdf_pbkdf2.py
+# btrbk is in /usr/sbin for historical reasons, migration to /usr/bin is planned.
+btrbk binary: command-in-sbin-has-manpage-in-incorrect-section
