@@ -14,7 +14,7 @@ Vcs-Browser: https://github.com/digint/btrbk-packaging
 Package: btrbk
 Architecture: all
 Depends: perl, btrfs-progs (>= 4.12), ${misc:Depends}
-Recommends: openssh-client, pv, mbuffer
+Recommends: openssh-client, mbuffer
 Suggests:
  openssl,
  python3,
