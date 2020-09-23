@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Axel Burri <axel@tty0.ch>
 Standards-Version: 4.1.1
 Build-Depends:
- debhelper (>= 9),
+ debhelper (>= 12),
  asciidoctor (>= 1.5.7),
 Homepage: https://digint.ch/btrbk/
 Vcs-Git: https://github.com/digint/btrbk-packaging -b debian
