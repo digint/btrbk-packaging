@@ -1,3 +1,15 @@
+btrbk (0.27.1-2) unstable; urgency=high
+
+  * Acknowledge preceding no-code-changes NMU
+  * Cherry-pick 2 patches from upstream
+    - 0001-btrbk-fix-scheduler-when-overriding-target_preserve_.patch
+      highly recommended by upstream
+    - 0001-ssh_filter_btrbk.sh-fix-alternation-regex.patch
+      fixes a security vulnerability which would have allowed for an
+      arbitrary code execution
+
+ -- Yaroslav Halchenko <debian@onerussian.com>  Tue, 23 Mar 2021 09:24:03 -0400
+
 btrbk (0.27.1-1.1) unstable; urgency=medium
 
   * Non maintainer upload by the Reproducible Builds team.
