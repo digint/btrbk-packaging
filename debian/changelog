@@ -9,8 +9,9 @@ btrbk (0.27.1-2) unstable; urgency=high
       arbitrary code execution
   * d/control
     - Added myself to Uploaders
+    - Boost compat to 10 (keeping old to ease backports)
 
- -- Yaroslav Halchenko <debian@onerussian.com>  Tue, 23 Mar 2021 09:30:48 -0400
+ -- Yaroslav Halchenko <debian@onerussian.com>  Tue, 23 Mar 2021 09:32:13 -0400
 
 btrbk (0.27.1-1.1) unstable; urgency=medium
 
