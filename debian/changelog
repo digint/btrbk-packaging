@@ -87,6 +87,28 @@ btrbk (0.27.2-1) experimental; urgency=medium
 
  -- Axel Burri <axel@tty0.ch>  Mon, 01 Apr 2019 20:45:59 +0200
 
+btrbk (0.27.1-2) unstable; urgency=high
+
+  * Acknowledge preceding no-code-changes NMU
+  * Cherry-pick 2 patches from upstream
+    - 0001-btrbk-fix-scheduler-when-overriding-target_preserve_.patch
+      highly recommended by upstream
+    - 0001-ssh_filter_btrbk.sh-fix-alternation-regex.patch
+      fixes a security vulnerability which would have allowed for an
+      arbitrary code execution
+  * d/control
+    - Added myself to Uploaders
+    - Boost compat to 10 (keeping old to ease backports)
+
+ -- Yaroslav Halchenko <debian@onerussian.com>  Tue, 23 Mar 2021 09:32:13 -0400
+
+btrbk (0.27.1-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Sun, 03 Jan 2021 13:57:08 +0100
+
 btrbk (0.27.1-1) unstable; urgency=medium
 
   * New upstream release.
