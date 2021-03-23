@@ -7,8 +7,10 @@ btrbk (0.27.1-2) unstable; urgency=high
     - 0001-ssh_filter_btrbk.sh-fix-alternation-regex.patch
       fixes a security vulnerability which would have allowed for an
       arbitrary code execution
+  * d/control
+    - Added myself to Uploaders
 
- -- Yaroslav Halchenko <debian@onerussian.com>  Tue, 23 Mar 2021 09:24:03 -0400
+ -- Yaroslav Halchenko <debian@onerussian.com>  Tue, 23 Mar 2021 09:30:48 -0400
 
 btrbk (0.27.1-1.1) unstable; urgency=medium
 
