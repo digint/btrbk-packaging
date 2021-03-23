@@ -1,4 +1,4 @@
-btrbk (0.31.2-1) unstable; urgency=high
+btrbk (0.31.2-1) experimental; urgency=high
 
   * New Upstream Release
     - Fix security vulnerability in ssh_filter_btrbk.sh. Specially
@@ -6,22 +6,23 @@ btrbk (0.31.2-1) unstable; urgency=high
       checked. Applies to remote hosts filtering ssh commands using
       ssh_filter_btrbk.sh in authorized_keys.
       Affected versions: >= btrbk-0.23.0-1
+      Patch for this issue was uploaded to sid in 0.27.1-2.
 
  -- Axel Burri <axel@tty0.ch>  Sun, 21 Mar 2021 13:55:28 +0100
 
-btrbk (0.31.1-1) experimental; urgency=medium
+btrbk (0.31.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
  -- Axel Burri <axel@tty0.ch>  Sun, 07 Mar 2021 18:28:34 +0100
 
-btrbk (0.31.0-1) experimental; urgency=medium
+btrbk (0.31.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
 
  -- Axel Burri <axel@tty0.ch>  Sun, 10 Jan 2021 19:13:14 +0100
 
-btrbk (0.30.0-1) experimental; urgency=medium
+btrbk (0.30.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Installs to /usr/bin/ instead of /usr/sbin
