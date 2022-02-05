@@ -1,6 +1,7 @@
 btrbk (0.32.0-1) experimental; urgency=medium
 
   * New Upstream Release
+  * Silence lintian python-script-but-no-python-dep
 
  -- Axel Burri <axel@tty0.ch>  Sat, 05 Feb 2022 19:55:31 +0100
 
