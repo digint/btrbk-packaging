@@ -1,5 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: btrbk
+Upstream-Contact: Axel Burri <axel@tty0.ch>
 Source: https://digint.ch/download/btrbk/releases/
 
 Files: *
