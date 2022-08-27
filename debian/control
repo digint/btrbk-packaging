@@ -6,7 +6,7 @@ Uploaders: Yaroslav Halchenko <debian@onerussian.com>
 Standards-Version: 4.6.1
 Build-Depends:
  debhelper (>= 12),
- asciidoctor (>= 1.5.7),
+ asciidoctor,
 Homepage: https://digint.ch/btrbk/
 Vcs-Git: https://github.com/digint/btrbk-packaging -b debian
 Vcs-Browser: https://github.com/digint/btrbk-packaging
@@ -14,7 +14,7 @@ Vcs-Browser: https://github.com/digint/btrbk-packaging
 
 Package: btrbk
 Architecture: all
-Depends: perl, btrfs-progs (>= 4.12), ${misc:Depends}
+Depends: perl, btrfs-progs, ${misc:Depends}
 Recommends: openssh-client, mbuffer
 Suggests:
  openssl,
