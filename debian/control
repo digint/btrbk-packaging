@@ -8,7 +8,7 @@ Build-Depends:
  debhelper-compat (= 13),
  asciidoctor,
 Homepage: https://digint.ch/btrbk/
-Vcs-Git: https://github.com/digint/btrbk-packaging -b debian
+Vcs-Git: https://github.com/digint/btrbk-packaging.git -b debian
 Vcs-Browser: https://github.com/digint/btrbk-packaging
 
 
