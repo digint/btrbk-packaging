@@ -5,7 +5,7 @@ Maintainer: Axel Burri <axel@tty0.ch>
 Uploaders: Yaroslav Halchenko <debian@onerussian.com>
 Standards-Version: 4.6.1
 Build-Depends:
- debhelper (>= 12),
+ debhelper (>= 13~),
  asciidoctor,
 Homepage: https://digint.ch/btrbk/
 Vcs-Git: https://github.com/digint/btrbk-packaging -b debian
