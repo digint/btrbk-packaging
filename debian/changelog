@@ -1,3 +1,10 @@
+btrbk (0.32.5-2) unstable; urgency=medium
+
+  * Revert debhelper from 13 to 12
+  * Revert set debhelper-compat version in Build-Depends
+
+ -- Axel Burri <axel@tty0.ch>  Sun, 30 Oct 2022 13:43:30 +0100
+
 btrbk (0.32.5-1) unstable; urgency=medium
 
   * New Upstream Release
