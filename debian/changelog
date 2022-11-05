@@ -1,20 +1,11 @@
-btrbk (0.32.5-2) unstable; urgency=medium
-
-  * Revert debhelper from 13 to 12
-  * Revert set debhelper-compat version in Build-Depends
-
- -- Axel Burri <axel@tty0.ch>  Sun, 30 Oct 2022 13:43:30 +0100
-
 btrbk (0.32.5-1) unstable; urgency=medium
 
   * New Upstream Release
   * Add missing NEWS item
   * Remove constraints unnecessary since buster
-  * Bump debhelper from old 10 to 13
-  * Set debhelper-compat version in Build-Depends
   * Use canonical URL in Vcs-Git
 
- -- Axel Burri <axel@tty0.ch>  Sun, 23 Oct 2022 15:02:04 +0200
+ -- Axel Burri <axel@tty0.ch>  Sat, 05 Nov 2022 10:44:49 +0100
 
 btrbk (0.32.4-1) unstable; urgency=medium
 
