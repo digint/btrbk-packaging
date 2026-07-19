@@ -1,3 +1,15 @@
+btrbk (0.32.7-1) experimental; urgency=high
+
+  * New Upstream Release
+    - Fix security vulnerability in ssh_filter_btrbk.sh (CVE-2026-62943).
+      Specially crafted commands can bypass filter checks and execute
+      arbitrary commands. Applies to remote hosts using ssh_filter_btrbk.sh
+      in authorized_keys for command filtering.
+      Affected versions: v0.29.0 through v0.32.6
+      Thanks to @machin0r for responsible disclosure.
+
+ -- Axel Burri <axel@tty0.ch>  Sun, 19 Jul 2026 19:52:37 +0200
+
 btrbk (0.32.6-2) unstable; urgency=medium
 
   * Upload to Debian unstable
